@@ -1,0 +1,32 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6196A6;
+    /* max-width: 1400px; */
+    height: 50px;
+}
+.head .logo>img{
+    border-radius: 50%;
+    width: 40px; 
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.head .content{
+    width: auto;
+}
+.head .content ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head .content ul li{
+    margin: 20px;
+    list-style: none;
+    border: 1px solid black;
+    background: burlywood;
+    padding: 2px;
+}
+.head .content ul li:hover{
+    background-color: rgb(35, 157, 161);
+}
